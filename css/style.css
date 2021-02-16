@@ -1,0 +1,112 @@
+
+@font-face {font-family: "Hans Kendrick V4";
+    src: url("http://db.onlinewebfonts.com/t/640850c0965fa5449af39df95c9970de.eot"); /* IE9*/
+    src: url("http://db.onlinewebfonts.com/t/640850c0965fa5449af39df95c9970de.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("http://db.onlinewebfonts.com/t/640850c0965fa5449af39df95c9970de.woff2") format("woff2"), /* chrome firefox */
+    url("http://db.onlinewebfonts.com/t/640850c0965fa5449af39df95c9970de.woff") format("woff"), /* chrome firefox */
+    url("http://db.onlinewebfonts.com/t/640850c0965fa5449af39df95c9970de.ttf") format("truetype"), /* chrome firefox opera Safari, Android, iOS 4.2+*/
+    url("http://db.onlinewebfonts.com/t/640850c0965fa5449af39df95c9970de.svg#Hans Kendrick V4") format("svg"); /* iOS 4.1- */
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    transition: all .1s ease-in;
+}
+
+.main-container {
+    background: #E2E7EC;
+    font-family: HansKendrick-Heavy,AdobeInvisFont,MyriadPro-Regular;
+    font-weight: 600;
+}
+
+.content-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 1120px;
+    margin: auto;
+    text-transform: uppercase;
+    font-family: "Hans Kendrick V4";
+}
+
+.content-box__banner {
+    background-image: url(../images/Layer\ 8@1X.png);
+    width: 740px;
+    height: 540px;
+}
+
+.content-box__banner_text {
+    font-size: 30px;
+    width: 433px;
+    color: #ffffff;
+    padding-left: 45px;
+    padding-top: 405px;
+}
+.date {
+    opacity:0.5;
+    font-size: 13px;
+}
+
+.date + p {
+    padding-top: 20px;
+}
+
+.content-box__post {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 360px;
+    height: 540px;
+    background: #ffffff;
+    margin-bottom: 20px;
+}
+
+.content-box__post_img {
+    height: 251px;
+}
+
+.content-box__post_text {
+    width: 310px;
+    height: 150px;
+    padding-left: 30px;
+    font-size:22px
+}
+
+.content-box__date {
+    opacity:0.5;
+    font-size: 13px;
+    padding-bottom: 21px;
+}
+
+.content-box__post_author {
+    width: 60px;
+    height: 60px;
+    padding-top: px;
+    padding-left: 30px;
+}
+
+.loading {
+    display: flex;
+    margin: auto;
+    color: #99A5B0;
+    font-size: 13px;
+    padding-bottom: 10px;
+}
+
+.loading p {
+    padding-top: 7px;
+}
+
+.loading div {
+    width: 30px; 
+    height: 28px; 
+    margin-right: 13px;   
+    -webkit-animation: spin 4s infinite linear;
+}
+    
+@-webkit-keyframes spin {
+    0%  {-webkit-transform: rotate(0deg);}
+    100% {-webkit-transform: rotate(360deg);}   
+}
